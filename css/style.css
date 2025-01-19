@@ -201,3 +201,56 @@ font-style: normal;
 font-weight: 400;
 line-height: 100%; /* 16px */
 }
+
+/* all_notice.html */
+
+.notice-headline{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 24px */
+}
+
+
+/* payment_system.html */
+
+.payment-header{
+    color: #000;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 24px */
+    
+}
+
+.payment-txt{
+    color: var(--Grey-grey-700, #5B5B5B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.system-box{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.system-box p{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 20px */
+}
