@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+
+.logo{
+    width: 147px;
+    /* height: 25.43px; */
+    flex-shrink: 0;
+}
+
+.logout-btn{
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 4px;
+    background: var(--Orange-orange-500, #FF3E01);
+
+    
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+}
+
+
+section{
+    width: auto;
+    height: 120vh;
+    background: var(--Orange-orange-50, #FFF7F4);                   
+}
+
+.overview{
+    align-self: stretch;
+
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 24px */
+}
+
+.overview-text{
+    color: var(--Grey-grey-700, #5B5B5B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+}
+
+.user-dp{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+.user-name{
+    color: #000;
+font-family: "Space Grotesk";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+
+}
+
+
+.user-jd{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+.notice-bar{
+    height: 141px;
+    align-self: stretch;
+
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.notice-tag{
+    position: absolute;
+
+    border-radius: 4px 4px 4px 4px;
+    background: var(--Orange-orange-500, #FF3E01);
+
+    /* display: flex; */
+    height: 36px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    }
+
+.notice-text{
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
+}
+
+.date-time-tag{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.notice-content{
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
+}
+
+
+.sales-card{
+    width: 440px;
+    height: 176px;
+
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.sale-target{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 24px */
+}
+
+.sale-target-count{
+    display: inline-flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#up-sales{
+    color: var(--Orange-orange-500, #FF3E01);
+    font-family: "Space Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 32px */
+}
+
+#last-month-sale{
+    color: var(--Grey-grey-700, #5B5B5B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#up-sales-month{
+    color: var(--Green-green-500, #008000);
+    font-family: "Space Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 32px */
+}
+
+.task-list{
+    border-radius: 12px;
+    background: #FFF;
+
+    height: 542px;
+    align-self: stretch;
+}
+
+.footer {
+    color: #000;
+font-family: "Suisse Intl";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 16px */
+}
