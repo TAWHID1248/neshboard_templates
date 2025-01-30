@@ -33,7 +33,7 @@
     <header>
         <nav class="navbar ">
             <div class="container-fluid">
-                <a href="#"> <img src="images/menu.svg" alt=""></a>
+                <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <img src="images/menu.svg" alt=""></a>
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" class="d-inline-block align-text-top logo text-center">
                 </a>
@@ -42,6 +42,48 @@
         </nav>
     </header>
     <!-- navbar-end -->
+
+    <!-- off-canvas-start -->
+    <div class="offcanvas menu-design offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-center" id="offcanvasExampleLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="container mt-5">
+            <!-- <ul class="flex-clounm">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span><i class="fa-solid fa-globe fa-xl"></i></span> Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span><i class="fa-brands  fa-telegram fa-xl"></i></span> Notice</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-regular fa-clipboard fa-xl"></i></span> Task</a>
+                </li>
+            </ul> -->
+            <div class="row  mb-3">
+                <div class="d-flex gap-2 justify-content-center">
+                    <div><i class="fa-solid fa-globe fa-xl"></i></div>
+                    <div><p class="menu-items">Overview</p></div> 
+                </div>  
+            </div>
+            <div class="row  mb-3">  
+                <div class="d-flex gap-2 justify-content-center ">
+                    <div><i class="fa-brands  fa-telegram fa-xl"></i></div>
+                    <div><p class="menu-items">Notice</p></div> 
+                </div>
+            </div>
+            <div class="row  mb-3">
+                <div class="d-flex gap-2 justify-content-center">
+                    <div><i class="fa-regular fa-clipboard fa-xl"></i></div>
+                    <div><p class="menu-items">Task</p></div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- off-canvas-end -->
 
     <!-- main-start -->
      <section>
@@ -100,6 +142,29 @@
                             <p id="up-sales" > 18000+</p>
                         </div>
                         <p id="last-month-sale"> vs last month 1200+</p>
+                        <!-- if ADMIN is authenticated -->
+                        <button class="sales-update-btn btn" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Update
+                        </button>
+                                            
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="staticBackdropLabel">Update Sales Target</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  ...
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Update</button>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <!-- if ADMIN is authenticated -->
                     </div>
                 </div>
                 <div class="col-4">
